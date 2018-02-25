@@ -1,0 +1,40 @@
+{
+  "name": "webcrafters-alarm-app-task",
+  "version": "1.0.0",
+  "description": "test-task",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "clean": "npm prune && npm i",
+    "lint": "eslint --ext .js,.jsx ./src/",
+    "lint:fix": "eslint --ext .js,.jsx ./src/ --fix",
+    "stylelint": "stylelint -c .stylelintrc ./src/**/*.scss",
+    "stylelint:fix": "stylelint -c .stylelintrc ./src/**/*.scss --fix"
+  },
+  "author": "viswa",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.20.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.7.0",
+    "html-webpack-plugin": "^2.30.1",
+    "stylelint": "^9.1.1",
+    "stylelint-config-standard": "^18.1.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^2.4.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-sass-loaders": "^1.0.0"
+  }
+}
