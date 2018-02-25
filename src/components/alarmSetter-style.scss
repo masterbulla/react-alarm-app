@@ -1,0 +1,65 @@
+.time-setter {
+    text-align: center;
+
+    & select {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background-color: blue;
+        border: none;
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        color: white;
+        font-size: 16px;
+        padding: 12px 24px;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:first-child {
+            margin-right: 10px;
+        }
+
+        &:last-child {
+            margin-left: 10px;
+        }
+    }
+}
+
+.days-setter {
+    margin: 25px 0;
+    text-align: center;
+
+    & span {
+        margin-right: 30px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        & input {
+            position: relative;
+            top: 2px;
+        }
+    }
+}
+
+.alarm-setter {
+    margin-bottom: 50px;
+    text-align: center;
+
+    & button {
+        background-color: rgba ( 0, 0, 0, .1 );
+        border: 2px solid blue;
+        border-radius: 50% 50%;
+        color: blue;
+        font-size: 16px;
+        padding: 12px 24px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
